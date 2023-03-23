@@ -86,7 +86,7 @@ export default function App() {
     {...viewState}
     onMove={evt => setViewState(evt.viewState)}
     style={{width: '100vw', height: '100vh'}}
-    mapStyle= {`https://api.maptiler.com/maps/streets-v2/style.json?key=${process.env.REACT_APP_MAPTILER}`}
+    mapStyle= {`https://api.maptiler.com/maps/streets-v2/style.json?key=cRn1XJG9WHpkdeopCXTg`}
     transitionDuration="200"
     onDblClick={currentUsername && handleAddClick}
     >

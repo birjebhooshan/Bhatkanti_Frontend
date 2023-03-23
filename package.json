@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-map-gl": "^7.0.21",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.0",
     "timeago.js": "^4.0.2",
     "web-vitals": "^2.1.4"
   },
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://bhatkanti-backend.onrender.com/api"
+  "proxy" : "https://bhatkanti-backend.onrender.com/api/"
 }
